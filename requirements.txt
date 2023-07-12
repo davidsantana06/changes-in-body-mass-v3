@@ -1,0 +1,6 @@
+matplotlib
+seaborn
+openpyxl
+pandas
+cryptography
+librosa
