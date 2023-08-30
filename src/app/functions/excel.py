@@ -1,10 +1,10 @@
 from app.classes.person import Person
-from app.shared_constants import ROOT_FOLDER
+from app.shared_constants import SRC_FOLDER
 from pandas import DataFrame
 from typing import List
 
 
-FILE_PATH = f'{ROOT_FOLDER}/mini_world.xlsx'
+FILE_PATH = f'{SRC_FOLDER}/mini_world.xlsx'
 
 def convert_to_df(decrypted_mw: List[Person]) -> DataFrame:
     '''

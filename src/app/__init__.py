@@ -1,12 +1,12 @@
 from app.classes.container import Container
 from app.classes.person import Person
 from app.functions.randomizers import random_weight
-from app.shared_constants import LOSE, PERSON_LIM, ROOT_FOLDER
+from app.shared_constants import LOSE, PERSON_LIM, SRC_FOLDER
 from librosa import load
 
 
 WEIGHT_INTERVAL = (90, 130)
-AUDIO_PATH = f'{ROOT_FOLDER}/assets/audio/playlist.mp3'
+AUDIO_PATH = f'{SRC_FOLDER}/assets/audio/playlist.mp3'
 WAVEFORMS, _ = load(AUDIO_PATH, sr=None)
 
 mini_world: list[Container] = []
