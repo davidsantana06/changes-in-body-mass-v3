@@ -3,7 +3,7 @@
 **PT-BR**
 
 Este repositório representa a última versão do projeto "Changes in Body Mass", correspondente à terceira avaliação da disciplina de Complexidade de Algoritmos do curso de Sistemas de Informação. Nesta versão, foi considerado o segundo cenário da iteração anterior, onde ocorre uma divisão de processamento entre a nuvem e a borda. Entre os novos recursos implementados, destaca-se a adição de uma fonte de aleatoriedade real obtida a partir da extração de ondas sonoras de streaming de  músicas, simulada por meio de um arquivo de áudio no formato MP3. Além disso, todas as transmissões de dados são criptografadas e acompanhadas por sua respectiva chave para a decodificação.
-<br /><br /><br />
+<br /><br />
 
 
 **EN-US**
